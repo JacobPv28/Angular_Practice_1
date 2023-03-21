@@ -1,0 +1,22 @@
+<body>
+  <div class="container">
+    <h1 class="title">Data Binding Example!</h1>
+    <div class="input-box">
+      <h4>Enter a Name</h4>
+      <input type="text" [(ngModel)]="Name" class="Blank" />
+      <h4>Enter a LastName</h4>
+      <input type="text" [(ngModel)]="LastName" class="Blank" />
+      <h4>Email</h4>
+      <input type="text" [(ngModel)]="Email" class="Blank" />
+    </div>
+    <div class="container_2">
+      <a href="https://parquesoft.com/" target="_blank"
+        ><img
+          class="img_1"
+          src="https://parquesoft.com/wp-content/uploads/2020/05/PS-Corp.png"
+        />
+      </a>
+    </div>
+    <h4 id="Msg">Hello, {{ Name }} {{ LastName }} !</h4>
+  </div>
+</body>
